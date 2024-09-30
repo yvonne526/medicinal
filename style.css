@@ -1,0 +1,263 @@
+/*Reset*/
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: fit-content;
+  max-width: 100lvw;
+}
+.header {
+  display: flex;
+  text-decoration: none;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  color: #000;
+}
+.doctor {
+  background-image: url(/images/hero-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 120vw;
+  margin-bottom: 3em;
+  display: flex;
+  align-items: column;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+}
+.Quality {
+  display: flex;
+  justify-content: space-between;
+  color: #2dd6c1;
+  margin: 20px;
+  padding: 10%;
+}
+.tech {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  margin: 20px;
+  color: #2dd6c1;
+}
+.readme {
+  display: flex;
+  padding-bottom: 2pc;
+}
+.button-a {
+  font-size: 17px;
+  display: inline-block;
+  padding: 8px 10px;
+  background-color: #496bf1;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.flex-container {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.box1 {
+  width: 400px;
+  height: 300px;
+  margin: 0 15px;
+  box-shadow: 1px 0 10px #000;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.box2 {
+  width: 400px;
+  height: 300px;
+  margin: 0 15px;
+  box-shadow: 1px 0 10px #000;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.box3 {
+  margin: 0 15px;
+  width: 400px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000000;
+  align-items: center;
+  text-align: center;
+}
+.image a {
+  margin-right: 30px;
+}
+.image b {
+  margin-top: 30px;
+}
+.image c {
+  margin-top: 30px;
+}
+.clinic {
+  padding: 1em 5em;
+  background-color: #2dd6c1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.about-us {
+  margin: 3em;
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 1.4em;
+  justify-content: space-between;
+}
+.about {
+  color: #496bf1;
+}
+.buttons {
+  font-size: 17px;
+  display: inline-block;
+  padding: 8px 10px;
+  background-color: #496bf1;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.Testimonials {
+  margin: 5em auto;
+  width: 30%;
+}
+.Testimonials1 {
+  margin-bottom: 1em;
+  /* font-size: 2rem; */
+}
+.surgery {
+  position: relative;
+}
+.marks {
+  position: absolute;
+  top: -40%;
+  left: 0%;
+}
+.rael {
+  margin-top: 2px;
+  text-align: center;
+  color: #496bf1;
+  margin-bottom: 2px;
+}
+.dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 40px;
+  margin-left: 200px;
+  color: #2dd6c1;
+}
+.dots1 {
+  width: 20px;
+  height: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: blue;
+}
+.dots2 {
+  width: 20px;
+  height: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #2dd6c1;
+}
+.dots3 {
+  width: 20px;
+  height: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #2dd6c1;
+}
+.forms {
+  background-image: url(../images/contact-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 140vw;
+}
+.input4 {
+  display: flex;
+  padding: 50px;
+  margin: 2em 0;
+}
+.input1 {
+  display: flex;
+  padding: 2em 8em;
+  margin: 2em 0;
+}
+.input2 {
+  display: flex;
+  padding: 2em 8em;
+  margin: 2em 0;
+}
+.input3 {
+  display: flex;
+  padding: 2em 8em;
+  margin: 2em 0;
+}
+.button {
+  display: flex;
+  padding: 3em 6em;
+  background-color: #496bf1;
+  color: #496bf1;
+  border: none;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5em;
+}
+.footer a {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  margin-left: 5em !important;
+  flex-direction: column;
+}
+.footer-contact {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  margin-left: 5em !important;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  flex-direction: column;
+}
